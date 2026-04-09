@@ -9,12 +9,11 @@
   "contact_description": "Ask for any other relevant information for your learning journey and book a class today!",
   "contact_button": "START YOUR LEARNING JOURNEY! 📚📚",
 
-  "hero_title": "Learn Spanish the Smart Way!",
-  "hero_subtitle": "Personalized lessons, cultural insights, and practical communication skills to help you speak with confidence.",
+  "hero_title": "Learn Spanish today!",
+  "hero_subtitle": "Don't let language barriers hold you back. Learn a new language and connect with locals on your next adventure.",
 
   "maintenance_title": "Site Under Maintenance 🚧",
   "maintenance_description": "We are updating our site to serve you better! Check back soon for new features and improvements.",
-
 
   "nameRequired": "Name is required",
   "emailRequired": "Email is required",
@@ -28,6 +27,44 @@
   "messagePlaceholder": "Your message",
   "submit": "Submit",
   "sending": "Sending...",
-  "success": "Thanks for your message!"
+  "success": "Thanks for your message!",
 
+  "meetInstructor": "Meet your instructor",
+  "greeting": "Hola! Me llamo Roberto,",
+  "intro": "I'm a lifelong learner committed to setting clear goals in both my personal and professional lives.",
+  "developerLife": "As a software developer, I spend my days solving complex logic problems, and in the evenings, I will help you achieve your learning goals.",
+  "languages": "Language learning has been part of my life, as I currently speak fluently French, Portuguese, and English, with Spanish being my native tongue.",
+  "tutoringExperience": "My experience in tutoring and mentoring on a one-to-one basis goes back to when I was in college, helping other students improve their understanding of basic computer programming concepts.",
+  "mentoringJob": "In addition, my current day job also requires mentoring younger developers; this is where I have found a deeper sense of purpose.",
+  "mentorshipBelief": "I believe that seeing others improve and thrive is every tutor's or mentor's goal.",
+  "knowMore": "Know more",
+
+  "nativeKnowledgeTitle": "Native Knowledge",
+  "nativeKnowledgeDesc": "A native speaker can help you master pronunciation and accent.",
+  "culturalInsightTitle": "Cultural Insight",
+  "culturalInsightDesc": "Native speakers can provide practical tips for real-life language use.",
+  "conversationalMethodTitle": "Conversational Method",
+  "conversationalMethodDesc": "Conversing with a native speaker enhances your language skills and fluency.",
+
+  "enhancedTravelTitle": "Enhanced travel experience",
+  "enhancedTravelDesc": "Speaking the local language can help you navigate the country more easily, as you will be able to read signs, ask for directions, and negotiate prices with ease. This will make your travels more enjoyable and less stressful.",
+
+  "offerCard1Title": "Traveling soon?",
+  "offerCard1Desc": "Our language learning program is designed to help you speak confidently and understand the culture like a local. Start your language journey today and unlock a world of new experiences!",
+  "offerCard2Title": "Make learning fun!",
+  "offerCard2Desc": "We provide learners with opportunities to actively engage with the language, as interactivity can help learners develop their language skills in a more effective and enjoyable way.",
+  "offerCard3Title": "Enjoy food",
+  "offerCard3Desc": "Being able to order at a restaurant in the local language can enhance your travel experience by allowing you to try local foods and immerse yourself in the local culture, as well as help you avoid misunderstandings when ordering food.",
+
+  "educationalProgramTitle": "Educational Program",
+  "educationalProgramSubtitle": "Learning Method",
+
+  "article1Title": "One-To-One",
+  "article1Desc": "Looking to learn Spanish for your next trip to a Spanish-speaking country? Look no further! As a native Spanish speaker and experienced instructor, I can help you achieve your language learning goals through a personalized and well-developed one-to-one course.",
+  "article2Title": "Interactive",
+  "article2Desc": "Through interactive and engaging lessons, you'll develop the language skills you need to confidently navigate any Spanish-speaking country. From ordering food in restaurants to asking for directions and engaging in small talk with locals, I'll equip you with the language tools you need.",
+  "article3Title": "Culture",
+  "article3Desc": "The course isn't just about language proficiency. I'll also introduce you to the rich culture and traditions of the Spanish-speaking world, helping you gain a deeper appreciation and understanding of the countries you'll be visiting.",
+  "article4Title": "Understand your destination",
+  "article4Desc": "Discover the power of understanding your destination, as you delve into the language and culture of Spanish-speaking countries. Open the door to a world of possibilities and make your travels truly unforgettable with our Spanish course."
 }

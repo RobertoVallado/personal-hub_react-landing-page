@@ -1,0 +1,155 @@
+.instructor-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 120px 80px;
+  box-sizing: border-box;
+}
+
+.instructor-section-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 120px;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.instructor-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 500px;
+}
+
+.instructor-content h2 {
+  color: #352B2A;
+  font-size: 60px;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.instructor-content p {
+  color: #352B2A;
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+  line-height: 27px;
+}
+
+.instructor-know-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  color: #352B2A;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  margin-top: 8px;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.instructor-know-more:hover {
+  opacity: 0.5;
+}
+
+.instructor-image {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.instructor-image img {
+  width: 362px;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.instructor-rectangle {
+  position: absolute;
+  right: -215px;
+  bottom: -95px;
+  width: 315px;
+  height: 410px;
+  background-color: #397B53;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  .instructor-section {
+    padding: 80px 40px;
+    overflow: hidden;
+  }
+
+  .instructor-section-inner {
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+  }
+
+  .instructor-content {
+    max-width: 100%;
+  }
+
+  .instructor-content h2 {
+    font-size: 40px;
+  }
+
+  .instructor-image img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .instructor-rectangle {
+    right: -80px;
+    width: 200px;
+    height: 250px;
+    bottom: -60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .instructor-section {
+    padding: 64px 24px;
+  }
+
+  .instructor-section-inner {
+    gap: 32px;
+  }
+
+  .instructor-content h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .instructor-content p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .instructor-content {
+    align-items: center;
+  }
+
+  .instructor-image img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .instructor-rectangle {
+    display: none;
+  }
+}
