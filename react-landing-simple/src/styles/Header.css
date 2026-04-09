@@ -1,7 +1,7 @@
 /* ==================== Header Base ==================== */
 .app-header {
   width: 100%;
-  background-color: #31694E; /* dark header */
+  background-color: #1E8955;
   color: #ffffff;
   position: sticky;
   top: 0;
@@ -9,9 +9,9 @@
 }
 
 .header-container {
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0.75rem 1.5rem;
+  padding: 24px 48px;
 
   display: flex;
   justify-content: space-between;
@@ -20,47 +20,48 @@
 }
 
 .header-logo {
+  font-family: 'Karla', sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   cursor: pointer;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;   /* bold */
-  font-size: 1.8rem;
-  cursor: pointer;
-  font-style: italic;
+  color: #ffffff;
 }
 
 /* ==================== Nav ==================== */
 .header-nav {
   display: flex;
-  gap: 24px;
+  gap: 48px;
   align-items: center;
   transition: all 0.3s ease;
 }
 
 .header-nav a {
   text-decoration: none;
-  color: #e5e7eb;
+  color: #ffffff;
+  font-family: 'Karla', sans-serif;
   font-weight: 500;
-  transition: color 0.15s ease;
+  font-size: 16px;
+  transition: opacity 0.3s;
 }
 
 .header-nav a:hover {
-  color: #ffffff;
+  opacity: 0.6;
 }
 
 /* ==================== Language Switcher ==================== */
 .header-language select {
-  background-color: #5b9f12;
+  background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
-  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
   padding: 4px 8px;
   font-size: 14px;
+  font-family: 'Karla', sans-serif;
   cursor: pointer;
 }
 
 .header-language select:hover {
-  background-color: #5c8531;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* ==================== Hamburger ==================== */
@@ -78,7 +79,7 @@
   display: block;
   height: 2px;
   width: 100%;
-  background: #e5e7eb;
+  background: #ffffff;
   border-radius: 1px;
   transition: all 0.3s ease;
   transform-origin: center;
@@ -95,8 +96,23 @@
   transform: translateY(-8px) rotate(-45deg);
 }
 
+/* ==================== Desktop right side ==================== */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-language {
+  margin-left: auto;
+}
+
 /* ==================== Mobile Responsive ==================== */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .header-container {
+    padding: 16px 24px;
+  }
+
   .hamburger {
     display: flex;
   }
@@ -106,16 +122,17 @@
     top: 0;
     right: 0;
     height: 100vh;
-    width: 250px;
+    width: 280px;
     max-width: 80%;
-    background-color: #0f172a;
+    background-color: #397B53;
     flex-direction: column;
     align-items: flex-start;
-    padding: 2rem 1.5rem;
-    gap: 1.5rem;
+    padding: 32px 24px;
+    gap: 24px;
     transform: translateX(100%);
     transition: transform 0.3s ease;
     box-shadow: -2px 0 8px rgba(0, 0, 0, 0.3);
+    z-index: 999;
   }
 
   .header-right.active {
@@ -125,32 +142,24 @@
   .header-nav {
     flex-direction: column;
     width: 100%;
-    gap: 12px;
+    gap: 16px;
   }
 
   .header-nav a {
     width: 100%;
     font-size: 1.1rem;
+    color: #ffffff;
   }
 
   .header-language {
     width: 100%;
     display: flex;
-    justify-content: flex-start; /* or center if you prefer */
+    justify-content: flex-start;
+    margin-left: 0;
   }
 
   .header-language select {
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
   }
-}
-
-/* Desktop: align language right */
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.header-language {
-  margin-left: auto; /* pushes it all the way right */
 }

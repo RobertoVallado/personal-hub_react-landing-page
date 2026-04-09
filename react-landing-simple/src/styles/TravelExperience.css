@@ -5,83 +5,141 @@
   align-items: center;
 }
 
+/* ==================== Benefits / Features Bar ==================== */
 .benefits-bar {
-width: 100vw;
-  background-color: #397B53;
-  padding: 80px 80px;
+  width: 100%;
+  background-color: #1E8955;
+  padding: 48px 80px;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
 }
 
 .benefits-container {
-  max-width: 1200px;
+  max-width: 1440px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 60px;
+  gap: 140px;
 }
 
 .benefit-item {
   flex: 1;
-  color: #ffffff; /* Sets all text in green bar to white */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 300px;
+}
+
+.benefit-item h3 {
+  font-size: 24px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+
+.benefit-item p {
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+  line-height: 27px;
+  margin: 0;
+  color: #ffffff;
+}
+
+/* ==================== Travel Heading ==================== */
+.travel-content {
+  padding: 120px 80px;
+  max-width: 1440px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  box-sizing: border-box;
+}
+
+.travel-content h2 {
+  font-size: 60px;
+  font-family: 'Cormorant Infant', serif;
+  color: #352B2A;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.travel-content p {
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+  line-height: 27px;
+  color: #352B2A;
+  max-width: 600px;
+}
+
+/* ==================== Offer Cards ==================== */
+.travel-offers {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 80px 120px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 48px;
+}
+
+.travel-offer-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.travel-offer-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.travel-offer-content {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.benefit-item h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin: 0;
-  color: #ffffff; 
+.travel-offer-title {
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  color: #352B2A;
 }
 
-.benefit-item p {
+.travel-offer-desc {
   font-size: 16px;
-  line-height: 1.5;
-  margin: 0;
-  color: #ffffff;
+  font-family: 'Karla', sans-serif;
+  line-height: 24px;
+  color: #352B2A;
+  max-width: 400px;
 }
 
-.travel-content {
-  padding: 120px 24px;
-  max-width: 900px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.travel-content h2 {
-  font-size: 56px;
-  color: #352b2a;
-  margin: 0;
-  font-weight: 700;
-  line-height: 1.1;
-}
-
-.travel-content p {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #352b2a;
-  margin: 0 auto;
-  max-width: 700px;
-}
-
-@media (max-width: 1024px) {
-  .benefits-bar {
-    padding: 60px 40px;
-  }
-  
+/* ==================== Responsive ==================== */
+@media (max-width: 991px) {
   .benefits-container {
-    gap: 30px;
+    gap: 64px;
+  }
+
+  .travel-offers {
+    grid-template-columns: auto auto;
+    padding: 0 40px 80px;
+  }
+
+  .travel-content {
+    padding: 64px 40px;
   }
 }
 
 @media (max-width: 767px) {
   .benefits-bar {
-    padding: 60px 24px;
+    padding: 48px 24px;
   }
 
   .benefits-container {
@@ -90,11 +148,21 @@ width: 100vw;
     text-align: center;
   }
 
+  .benefit-item {
+    max-width: 100%;
+  }
+
   .travel-content {
-    padding: 80px 24px;
+    padding: 64px 24px;
   }
 
   .travel-content h2 {
     font-size: 36px;
+  }
+
+  .travel-offers {
+    grid-template-columns: auto;
+    padding: 0 24px 64px;
+    gap: 32px;
   }
 }

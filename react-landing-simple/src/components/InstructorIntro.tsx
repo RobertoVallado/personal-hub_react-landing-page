@@ -17,13 +17,22 @@ export default function InstructorIntro() {
                     <p>{t("tutoringExperience")}</p>
                     <p>{t("mentoringJob")}</p>
                     <p>{t("mentorshipBelief")}</p>
+                    <a
+                        href="https://www.linkedin.com/in/roberto-vallado/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="instructor-know-more"
+                    >
+                        <span>{t("knowMore")}</span>
+                        <span>&gt;</span>
+                    </a>
                 </div>
 
                 <div className="instructor-image">
                     <img src={yourinstructor} alt="Instructor Roberto" />
+                    <div className="instructor-rectangle" />
                 </div>
             </div>
         </section>
-
     );
 }

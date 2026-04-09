@@ -1,34 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+}
+
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #352B2A;
+  background-color: #ffffff;
+  overflow-x: hidden;
 }
 
-.hero {
-  padding: 5rem 2rem;
-  text-align: center;
-  background: linear-gradient(135deg, #5b2cff, #7b3fe4);
-  color: white;
+p {
+  margin: 0;
+  padding: 0;
 }
 
-.hero .cta {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.8rem 1.5rem;
-  background: white;
-  color: #5b2cff;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant Infant', serif;
 }
 
-.section {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 3rem 2rem;
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
-.footer {
-  text-align: center;
-  padding: 2rem;
-  opacity: 0.7;
+img {
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+  line-height: 1.15;
 }

@@ -4,7 +4,6 @@
   "header_contact": "Contact",
   "header_about": "À propos",
 
-  
   "about_title": "À propos",
   "about_description": "J'offre des cours particuliers d'espagnol axés sur la communication réelle, la compréhension culturelle et l'utilisation pratique. Que vous soyez débutant ou que vous souhaitiez améliorer votre fluidité, les leçons sont adaptées à vos objectifs.",
 
@@ -12,8 +11,8 @@
   "contact_description": "Demandez toute information pertinente pour votre parcours d'apprentissage et réservez un cours dès aujourd'hui !",
   "contact_button": "COMMENCEZ VOTRE PARCOURS D'APPRENTISSAGE ! 📚📚",
 
-  "hero_title": "Apprenez l'espagnol de manière intelligente !",
-  "hero_subtitle": "Des cours personnalisés, des aperçus culturels et des compétences de communication pratiques pour vous aider à parler avec confiance.",
+  "hero_title": "Apprenez l'espagnol aujourd'hui !",
+  "hero_subtitle": "Ne laissez pas les barrières linguistiques vous freiner. Apprenez une nouvelle langue et connectez-vous avec les locaux lors de votre prochaine aventure.",
 
   "maintenance_title": "Site en Maintenance 🚧",
   "maintenance_description": "Nous mettons à jour notre site pour mieux vous servir ! Revenez bientôt pour découvrir de nouvelles fonctionnalités et améliorations.",
@@ -22,7 +21,6 @@
   "emailRequired": "Le courriel est requis",
   "emailInvalid": "Veuillez entrer un courriel valide",
   "messageRequired": "Le message est requis",
-
   "nameLabel": "Nom",
   "namePlaceholder": "Votre nom",
   "emailLabel": "Adresse courriel",
@@ -37,10 +35,11 @@
   "greeting": "¡Hola! Je m'appelle Roberto,",
   "intro": "Je suis un apprenant passionné, engagé à fixer des objectifs clairs dans ma vie personnelle et professionnelle.",
   "developerLife": "En tant que développeur logiciel, je résous des problèmes complexes le jour et j'aide les apprenants à atteindre leurs objectifs le soir.",
-  "languages": "Je parle couramment le français, le portugais et l'anglais, l'espagnol étant ma langue maternelle.",
-  "tutoringExperience": "Je fais du tutorat individuel depuis l'université, aidant les étudiants à comprendre les concepts de programmation.",
-  "mentoringJob": "Mon travail actuel implique également de guider des développeurs juniors, ce qui me procure un profond sentiment d'accomplissement.",
-  "mentorshipBelief": "Je crois que le but d'un tuteur est de voir les autres progresser et s'épanouir.",
+  "languages": "L'apprentissage des langues fait partie de ma vie : je parle couramment le français, le portugais et l'anglais, l'espagnol étant ma langue maternelle.",
+  "tutoringExperience": "Mon expérience en tutorat et en mentorat individuel remonte à mes années universitaires, où j'aidais d'autres étudiants à améliorer leur compréhension des concepts de programmation.",
+  "mentoringJob": "De plus, mon poste actuel implique également de guider des développeurs juniors ; c'est là que j'ai trouvé un sens plus profond à mon travail.",
+  "mentorshipBelief": "Je crois que voir les autres progresser et s'épanouir est l'objectif de tout tuteur ou mentor.",
+  "knowMore": "En savoir plus",
 
   "nativeKnowledgeTitle": "Connaissance native",
   "nativeKnowledgeDesc": "Un locuteur natif peut vous aider à maîtriser la prononciation et l'accent.",
@@ -48,7 +47,26 @@
   "culturalInsightDesc": "Les locuteurs natifs peuvent fournir des conseils pratiques pour l'utilisation réelle de la langue.",
   "conversationalMethodTitle": "Méthode conversationnelle",
   "conversationalMethodDesc": "Converser avec un locuteur natif améliore vos compétences linguistiques et votre fluidité.",
-  "enhancedTravelTitle": "Expérience de voyage améliorée",
-  "enhancedTravelDesc": "Parler la langue locale peut vous aider à mieux naviguer dans le pays, car vous pourrez lire les panneaux, demander des directions et négocier les prix facilement. Cela rendra vos voyages plus agréables et moins stressants."
 
+  "enhancedTravelTitle": "Expérience de voyage améliorée",
+  "enhancedTravelDesc": "Parler la langue locale peut vous aider à mieux naviguer dans le pays, car vous pourrez lire les panneaux, demander des directions et négocier les prix facilement. Cela rendra vos voyages plus agréables et moins stressants.",
+
+  "offerCard1Title": "Vous voyagez bientôt ?",
+  "offerCard1Desc": "Notre programme d'apprentissage des langues est conçu pour vous aider à parler avec confiance et à comprendre la culture comme un local. Commencez votre parcours linguistique dès aujourd'hui !",
+  "offerCard2Title": "Rendez l'apprentissage amusant !",
+  "offerCard2Desc": "Nous offrons aux apprenants des occasions de s'engager activement avec la langue, car l'interactivité peut les aider à développer leurs compétences linguistiques de manière plus efficace et agréable.",
+  "offerCard3Title": "Savourez la cuisine locale",
+  "offerCard3Desc": "Pouvoir commander dans un restaurant dans la langue locale peut enrichir votre expérience de voyage en vous permettant de goûter aux spécialités locales et de vous immerger dans la culture locale.",
+
+  "educationalProgramTitle": "Programme éducatif",
+  "educationalProgramSubtitle": "Méthode d'apprentissage",
+
+  "article1Title": "Un pour un",
+  "article1Desc": "Vous souhaitez apprendre l'espagnol pour votre prochain voyage dans un pays hispanophone ? En tant que locuteur natif et instructeur expérimenté, je peux vous aider à atteindre vos objectifs grâce à un cours personnalisé.",
+  "article2Title": "Interactif",
+  "article2Desc": "Grâce à des leçons interactives et engageantes, vous développerez les compétences nécessaires pour naviguer dans n'importe quel pays hispanophone. Je vous équiperai des outils linguistiques dont vous avez besoin.",
+  "article3Title": "Culture",
+  "article3Desc": "Le cours ne porte pas uniquement sur la maîtrise de la langue. Je vous ferai également découvrir la riche culture et les traditions du monde hispanophone, pour mieux apprécier les pays que vous visiterez.",
+  "article4Title": "Comprendre votre destination",
+  "article4Desc": "Découvrez le pouvoir de comprendre votre destination en explorant la langue et la culture des pays hispanophones. Ouvrez la porte à un monde de possibilités et rendez vos voyages inoubliables."
 }
